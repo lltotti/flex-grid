@@ -1,0 +1,84 @@
+
+.container {
+    border: solid 2px;
+    background: #f8ddf0;
+    margin-bottom: 1em;
+    padding: 4px;
+    display: grid;
+  }
+
+  #main-picture{
+    text-align: center;
+    displ;
+    
+  }
+
+h1{
+  color:white;
+  text-align: center ;
+  line-height: 100px;
+  
+}
+
+p{
+  color:white;
+  text-align: center;
+}
+
+  #main-picture{
+    height: 400px;
+    background-image: url("images/pexels-vishnu-r-nair-1105666.jpg");
+    size: cover;
+    position: 0 0;
+    background-repeat: no-repeat;
+ 
+  }
+  .container { 
+      display: grid; 
+      grid-template-rows: 1fr; 
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "left right ";
+    
+    } 
+    .item:nth-child(1) { grid-area: left; } 
+    .item:nth-child(2) { grid-area: right; } 
+    
+    .whats-on { 
+      display: grid; 
+      grid-template-rows: 1fr; 
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "left right ";
+    
+    } 
+    .item:nth-child(1) { grid-area: left; } 
+    .item:nth-child(2) { grid-area: right; } 
+
+    /* .container { 
+
+      display: grid; 
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+      grid-template-columns: 1fr 1fr 1fr; 
+      grid-template-areas: "head head head" 
+                            "main main main" 
+                            "main main main" 
+                            "foot foot foot"; 
+      
+    }  */
+    
+    /* .item:nth-child(1) { grid-area: head; } 
+    .item:nth-child(2) { grid-area: main; } 
+    .item:nth-child(3) { grid-area: nav; } 
+    .item:nth-child(4) { grid-area: nav; }
+    .item:nth-child(5) { grid-area: foot; } */
+
+  
+    .item {
+        background: #c565a8;
+        border: solid 2px #305077;
+        text-align: left;
+        font-size: 1em;
+        margin: 4px;
+        color: white;
+        font-weight: bold;
+        grid
+      }
