@@ -1,0 +1,161 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+* {
+  margin: 2px;
+}
+.top-row {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header img {
+  width: 25%;
+  height: auto;
+  display: flex;
+  /* justify-content: flex-end; */
+}
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.nav a {
+  height: 30px;
+  display: inline-flex;
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+}
+.main-title {
+  background-image: url("./images/landing.jpg");
+  /* height: 300px; */
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 250px 0;
+  text-align: center;
+}
+
+.main-title h1 {
+  font-size: 4rem;
+  color: white;
+  /* line-height: 500px; */
+  text-align: center;
+}
+
+.main-title span {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  color: white;
+  /* line-height: 100px; */
+  text-align: center;
+}
+.subsection-wrapper {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  padding: 30px;
+  text-decoration-line: underline;
+  text-underline-offset: 1rem;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #1db954;
+}
+
+h3 {
+  color: #1db954;
+  text-align: center;
+  padding: 30px;
+}
+
+.subsection-wrapper p {
+  text-align: center;
+  font-size: 1rem;
+}
+.icon-left,
+.icon-middle,
+.icon-right,
+img {
+  width: 32%;
+  height: auto;
+  padding: 30px;
+}
+.icon-middle p {
+  padding: 5px;
+}
+
+.container-bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: #1db954;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("images/spotify-icon-white.png");
+  background-position: center;
+  background-size: 10%;
+}
+.container-bottom .left-col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px 40px 30px;
+  justify-content: space-evenly;
+  padding-left: 2rem;
+  text-align: left;
+  color: white;
+}
+
+.left-col h2 {
+  color: white;
+  text-align: left;
+  text-decoration-line: underline;
+  text-underline-offset: 1rem;
+  text-decoration-thickness: 3px;
+  text-decoration-color: white;
+  padding-top: 80px;
+}
+
+.article span {
+  font-size: 16px;
+}
+
+/* .article-one,
+.article-two,
+.article-three {
+  padding: 2rem 2rem;
+  line-height: 2rem;
+} */
+
+.article-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.spotify-icon img {
+  width: 60%;
+  height: 40%;
+  /* position: absolute; */
+}
+.container-bottom .right-col {
+  display: flex;
+  justify-content: right;
+  width: 40%;
+  height: 60%;
+}
+
+.right-col img {
+  width: 70%;
+  height: 70%;
+  padding-top: 6em;
+}
